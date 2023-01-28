@@ -7,12 +7,13 @@
 
 body {
     background: white;
+    padding: 0 10px;
 }
 
 header {
     height: 60px;
     background: #233d4b;
-    margin: 10px;
+    margin: 10px 0;
     margin-bottom: 0;
 }
 
@@ -32,4 +33,15 @@ header .corner .white_paper {
     background: blue;
     background: white;
     border-radius: 100% 0 0 0;
+}
+
+#profile {
+    width: 325px;
+    height: 500px;
+    background: #b086e0;
+    position: relative;
+    top: 100px;
+    left: calc(50% - 162.5px);
+    border-radius: 70px 10px;
+    box-shadow: 0 5px 20px .5px black;
 }
