@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+}
+
+body {
+    background: white;
+}
+
+header {
+    height: 60px;
+    background: #233d4b;
+    margin: 10px;
+    margin-bottom: 0;
+}
+
+header .corner {
+    position: fixed;
+    top: 70px;
+    left: 10px;
+    width: 200px;
+    height: 100px;
+    background: red;
+    background: #233d4b;
+}
+
+header .corner .white_paper {
+    width: 100%;
+    height: 100%;
+    background: blue;
+    background: white;
+    border-radius: 100% 0 0 0;
+}
