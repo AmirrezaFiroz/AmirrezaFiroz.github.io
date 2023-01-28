@@ -8,6 +8,7 @@
 body {
     background: white;
     padding: 0 10px;
+    height: 100%;
 }
 
 header {
@@ -18,7 +19,7 @@ header {
 }
 
 header .corner {
-    position: fixed;
+    position: absolute;
     top: 70px;
     left: 10px;
     width: 200px;
@@ -35,13 +36,24 @@ header .corner .white_paper {
     border-radius: 100% 0 0 0;
 }
 
+.elements {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: calc(100% - 20px);
+    box-sizing: content-box;
+    top: 70px;
+}
+
 #profile {
-    width: 325px;
+    width: 50%;
+    max-width: 300px;
+    min-width: 200px;
     height: 500px;
     background: #b086e0;
     position: relative;
     top: 100px;
-    left: calc(50% - 162.5px);
     border-radius: 70px 10px;
     box-shadow: 0 5px 20px .5px black;
     display: flex;
