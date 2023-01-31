@@ -8,12 +8,13 @@
     padding: 0;
     box-sizing: border-box;
     border: none;
+    overflow: scroll;
 }
 
 body {
     background: white;
     padding: 0 10px;
-    height: 100%;
+    background: #efe6fa;
 }
 
 header {
@@ -29,35 +30,34 @@ header .corner {
     left: 10px;
     width: 200px;
     height: 100px;
-    background: red;
     background: #433766;
 }
 
 header .corner .white_paper {
     width: 100%;
     height: 100%;
-    background: blue;
-    background: white;
+    background: #efe6fa;
     border-radius: 100% 0 0 0;
+    border: none;
 }
 
 .elements {
     display: flex;
     justify-content: center;
     align-items: center;
-    position: fixed;
+    position: absolute;
     width: calc(100% - 20px);
     box-sizing: content-box;
     top: 70px;
+    height: 100%;
 }
 
 #profile {
     width: 50%;
-    max-width: 300px;
+    max-width: 400px;
     min-width: 200px;
-    height: 500px;
+    height: 600px;
     background: #b086e0;
-    position: relative;
     top: 100px;
     border-radius: 70px 10px;
     box-shadow: 0 5px 20px .5px black;
