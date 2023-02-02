@@ -10,6 +10,7 @@
     border: none;
     overflow: scroll;
     font-family: 'nazanin';
+    transition: .1s linear;
 }
 
 body {
@@ -108,8 +109,20 @@ header {
 
 .contact {
     width: 100%;
-    margin-top: 10px;
+    margin-top: 15px;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.contact * {
+    text-decoration: none;
+}
+
+.contact #telegram {
+    margin-right: 20px;
+}
+
+.contact *:hover {
+    transform: scale(0.9);
 }
