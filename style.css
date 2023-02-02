@@ -123,6 +123,10 @@ header {
     margin-right: 20px;
 }
 
+.contact #github {
+    margin-left: 20px;
+}
+
 .contact *:hover {
     transform: scale(0.9);
 }
