@@ -10,6 +10,7 @@
     border: none;
     overflow: scroll;
     font-family: 'nazanin';
+    transition: .1s linear;
 }
 
 body {
@@ -120,4 +121,8 @@ header {
 
 .contact #telegram {
     margin-right: 20px;
+}
+
+.contact #telegram:hover {
+    transform: scale(0.9);
 }
