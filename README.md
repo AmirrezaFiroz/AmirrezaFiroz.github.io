@@ -1,3 +1,3 @@
 # AmirrezaFiroz.github.io
 
-my personal site
+my [personal](https://amirrezafiroz.github.io) site ;)
