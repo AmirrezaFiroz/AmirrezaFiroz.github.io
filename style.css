@@ -105,3 +105,11 @@ header {
     padding: 10px 20px;
     font-size: large;
 }
+
+.contact {
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
