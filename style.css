@@ -9,6 +9,8 @@
     box-sizing: border-box;
     border: none;
     overflow: scroll;
+    
+    font-family: 'nazanin';
 }
 
 body {
@@ -55,7 +57,7 @@ header .corner .white_paper {
     width: 50%;
     max-width: 400px;
     min-width: 200px;
-    height: 600px;
+    height: 650px;
     background: #b086e0;
     top: 100px;
     border-radius: 70px 10px;
@@ -64,7 +66,7 @@ header .corner .white_paper {
     justify-content: flex-start;
     align-items: center;
     flex-direction: column;
-    padding: 30px 0 0 0;
+    padding: 30px 10px;
 }
 
 #profile .picture {
@@ -88,7 +90,19 @@ header .corner .white_paper {
     padding: 0 5px 5px 5px;
     display: flex;
     justify-content: center;
-    font-family: 'nazanin';
     font-size: xx-large;
     margin: 5px 0;
+}
+
+.discribtion {
+    width: 80%;
+    height: calc(100% - 300px);
+    background-color: #c297f4;
+    margin-top: 10px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 10px;
+    font-size: large;
 }
