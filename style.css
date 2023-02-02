@@ -101,10 +101,11 @@ header {
     margin-top: 10px;
     border-radius: 30px;
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-start;
     align-items: flex-start;
     padding: 10px 20px;
     font-size: large;
+    direction: rtl;
 }
 
 .contact {
@@ -128,11 +129,11 @@ header {
 }
 
 .contact #telegram {
-    margin-right: 20px;
+    margin-right: 15px;
 }
 
 .contact #github {
-    margin-left: 20px;
+    margin-left: 15px;
 }
 
 .contact *:hover {
