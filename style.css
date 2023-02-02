@@ -10,6 +10,7 @@
     border: none;
     overflow: scroll;
     font-family: 'nazanin';
+    transition: .1s linear;
 }
 
 body {
@@ -100,8 +101,69 @@ header {
     margin-top: 10px;
     border-radius: 30px;
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-start;
     align-items: flex-start;
     padding: 10px 20px;
     font-size: large;
+    direction: rtl;
+}
+
+.contact {
+    width: 100%;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact * {
+    text-decoration: none;
+    color: black;
+}
+
+.contact>* {
+    border: 3px solid black;
+    box-sizing: content-box;
+    padding: 4px;
+    border-radius: 20px;
+}
+
+.contact #telegram {
+    margin-right: 15px;
+}
+
+.contact #github {
+    margin-left: 15px;
+}
+
+.contact *:hover {
+    transform: scale(0.9);
+}
+
+.red-circle {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background: red;
+    border-radius: 100%;
+}
+
+.circle1 {
+    top: 80px;
+    left: 70%;
+}
+
+.circle2 {
+    top: 300px;
+    left: calc(20% - 100px);
+}
+
+.circle3 {
+    top: 500px;
+    left: 90%;
+}
+
+.circle4 {
+    top: 600px;
+    left: 20%;
 }
