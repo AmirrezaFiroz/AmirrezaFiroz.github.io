@@ -9,7 +9,6 @@
     box-sizing: border-box;
     border: none;
     overflow: scroll;
-    
     font-family: 'nazanin';
 }
 
@@ -25,7 +24,7 @@ header {
     margin-bottom: 0;
 }
 
-header .corner {
+.corner {
     position: absolute;
     top: 70px;
     left: 10px;
@@ -34,7 +33,7 @@ header .corner {
     background: #433766;
 }
 
-header .corner .white_paper {
+.corner .white_paper {
     width: 100%;
     height: 100%;
     background: #efe6fa;
