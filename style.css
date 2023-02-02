@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'nazanin';
-    src: url(./B-NAZANIN.TTF);
+    src: url(./B-NAZANIN.ttf);
 }
 
 * {
@@ -8,12 +8,14 @@
     padding: 0;
     box-sizing: border-box;
     border: none;
+    overflow: scroll;
+    
+    font-family: 'nazanin';
 }
 
 body {
-    background: white;
     padding: 0 10px;
-    height: 100%;
+    background: #efe6fa;
 }
 
 header {
@@ -29,35 +31,34 @@ header .corner {
     left: 10px;
     width: 200px;
     height: 100px;
-    background: red;
     background: #433766;
 }
 
 header .corner .white_paper {
     width: 100%;
     height: 100%;
-    background: blue;
-    background: white;
+    background: #efe6fa;
     border-radius: 100% 0 0 0;
+    border: none;
 }
 
 .elements {
     display: flex;
     justify-content: center;
     align-items: center;
-    position: fixed;
+    position: absolute;
     width: calc(100% - 20px);
     box-sizing: content-box;
     top: 70px;
+    height: 100%;
 }
 
 #profile {
     width: 50%;
-    max-width: 300px;
+    max-width: 400px;
     min-width: 200px;
-    height: 500px;
+    height: 650px;
     background: #b086e0;
-    position: relative;
     top: 100px;
     border-radius: 70px 10px;
     box-shadow: 0 5px 20px .5px black;
@@ -65,7 +66,7 @@ header .corner .white_paper {
     justify-content: flex-start;
     align-items: center;
     flex-direction: column;
-    padding: 30px 0 0 0;
+    padding: 30px 10px;
 }
 
 #profile .picture {
@@ -89,7 +90,19 @@ header .corner .white_paper {
     padding: 0 5px 5px 5px;
     display: flex;
     justify-content: center;
-    font-family: 'nazanin';
     font-size: xx-large;
     margin: 5px 0;
+}
+
+.discribtion {
+    width: 80%;
+    height: calc(100% - 300px);
+    background-color: #c297f4;
+    margin-top: 10px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 10px 20px;
+    font-size: large;
 }
