@@ -8,7 +8,7 @@
     padding: 0;
     box-sizing: border-box;
     border: none;
-    overflow: auto;
+    overflow: scroll;
     font-family: 'nazanin';
     transition: .1s linear;
 }
