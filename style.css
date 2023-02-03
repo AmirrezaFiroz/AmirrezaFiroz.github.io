@@ -8,7 +8,7 @@
     padding: 0;
     box-sizing: border-box;
     border: none;
-    overflow: scroll;
+    overflow: auto;
     font-family: 'nazanin';
     transition: .1s linear;
 }
@@ -46,7 +46,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    position: absolute;
+    /* position: absolute; */
     width: calc(100% - 20px);
     box-sizing: content-box;
     top: 70px;
