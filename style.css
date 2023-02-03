@@ -21,13 +21,11 @@ body {
 header {
     height: 60px;
     background: #433766;
-    margin: 10px 0;
     margin-bottom: 0;
 }
 
 .corner {
     position: absolute;
-    top: 70px;
     left: 10px;
     width: 200px;
     height: 100px;
